@@ -10,13 +10,12 @@ public class ServiceStation {
         }
         public void check (Car car){
             checkVehicle(car);
-            car.checkEngine();
+            car.check();
 
         }
         public void check (Truck truck){
             checkVehicle(truck);
-            truck.checkEngine();
-            truck.checkTrailer();
+            truck.check();
         }
     }
 
