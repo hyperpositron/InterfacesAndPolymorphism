@@ -1,10 +1,10 @@
 public abstract class Vehicle {
     public String modelName;
-    public int whealsCount;
+    public int wheelsCount;
 
-    public Vehicle(String modelName, int whealsCount) {
+    public Vehicle(String modelName, int wheelsCount) {
         this.modelName = modelName;
-        this.whealsCount = whealsCount;
+        this.wheelsCount = wheelsCount;
     }
 
     public void updateTyre() {
